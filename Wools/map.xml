@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<map proto="2.0.0">
+  <name>Wools - Test Map</name>
+  <version>1.0.0</version>
+  <objective>One wool per team.</objective>
+  <include src="foundation.xml"/> <!-- Authors, Teams, Spawns and Kits -->
+  <wools>
+    <wool team="blue-team" color="purple" location="0,0,0" monument="purple-monument"/>
+    <wool team="red-team" color="pink" location="0,0,0" monument="pink-monument"/>
+  </wools>
+  <regions>
+    <block id="purple-monument">-13,5,0</block>
+    <block id="pink-monument">13,5,0</block>
+  </regions>
+</map>

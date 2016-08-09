@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<map proto="2.0.0">
+  <name>Monuments - Test Map</name>
+  <version>1.0.0</version>
+  <objective>One monument per team.</objective>
+  <include src="foundation.xml"/> <!-- Authors, Teams, Spawns and Kits -->
+  <destroyables materials="ender stone" completion="100%">
+    <destroyable name="Blue Monument" owner="blue-team" region="blue-monument"/>
+    <destroyable name="Red Monument" owner="red-team" region="red-monument"/>
+  </destroyables>
+  <regions>
+    <union id="blue-monument">
+      <block>0,4,-4</block>
+      <block>0,5,-4</block>
+    </union>
+    <union id="red-monument">
+      <block>0,4,4</block>
+      <block>0,5,4</block>
+    </union>
+  </regions>
+</map>

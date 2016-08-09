@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<map proto="2.0.0">
+  <name>Test Map Base</name>
+  <version>1.0.0</version>
+  <objective>Base map for other creations.</objective>
+  <include src="foundation.xml"/> <!-- Authors, Teams, Spawns and Kits -->
+</map>
