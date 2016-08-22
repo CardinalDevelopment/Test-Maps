@@ -10,7 +10,7 @@
   <spawns>
     <spawn team="blue-team" region="blue-spawn" yaw="-90" kit="default-kit"/>
     <spawn team="red-team" region="red-spawn" yaw="90" kit="default-kit"/>
-    <default region="default-spawn" yaw="180"/>
+    <spawn defult="true" region="default-spawn" yaw="180"/>
   </spawns>
   <regions>
     <cylinder id="blue-spawn" base="-9.5,4,0.5" radius="0" height="0"/>
